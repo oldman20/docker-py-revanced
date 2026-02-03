@@ -16,15 +16,12 @@ PLAY_STORE_BASE_URL = "https://play.google.com"
 PLAY_STORE_APK_URL = f"{PLAY_STORE_BASE_URL}/store/apps/details?id=" + "{}"
 APK_COMBO_BASE_URL = "https://apkcombo.com"
 APK_COMBO_GENERIC_URL = APK_COMBO_BASE_URL + "/genericApp/{}"
-not_found_icon = "https://img.icons8.com/bubbles/500/android-os.png"
+not_found_icon = "https://www.svgrepo.com/download/441689/page-not-found.svg"
 revanced_api = "https://api.revanced.app/v4/patches/list"
 APK_MONK_BASE_URL = "https://www.apkmonk.com"
 APKEEP = "apkeep"
 APK_MONK_APK_URL = APK_MONK_BASE_URL + "/app/{}/"
 APK_MONK_ICON_URL = "https://cdn.apkmonk.com/logos/{}"
-DRIVE_BASE_URL = "https://drive.google.com"
-DRIVE_DOWNLOAD_BASE_URL = f"{DRIVE_BASE_URL}/uc?id="
-DRIVE_DOWNLOAD_URL = DRIVE_DOWNLOAD_BASE_URL + "{}"
 apk_sources = {
     "backdrops": f"{APK_MIRROR_BASE_APK_URL}/backdrops/backdrops-wallpapers/",
     "bacon": f"{APK_MIRROR_BASE_APK_URL}/onelouder-apps/baconreader-for-reddit/",
@@ -71,9 +68,9 @@ apk_sources = {
     "facebook": f"{APK_MIRROR_BASE_APK_URL}/facebook-2/facebook/",
     "lemmy-sync": f"{APK_MIRROR_BASE_APK_URL}/sync-apps-ltd/sync-for-lemmy/",
     "xiaomi-wearable": f"{APK_MIRROR_BASE_APK_URL}/beijing-xiaomi-mobile-software-co-ltd/mi-wear-小米穿戴/",
-    "my-expenses": UPTODOWN_BASE_URL.format("my-expenses"),
-    "spotify": UPTODOWN_BASE_URL.format("spotify"),
+    "spotify": f"{APK_MIRROR_BASE_APK_URL}/spotify-ab/spotify-music-podcasts/",
     "joey": UPTODOWN_BASE_URL.format("joey-for-reddit"),
+    "my-expenses": UPTODOWN_BASE_URL.format("my-expenses"),
     "scbeasy": UPTODOWN_BASE_URL.format("scb-easy"),
     "expensemanager": UPTODOWN_BASE_URL.format("bishinews-expense-manager"),
     "androidtwelvewidgets": APK_PURE_URL,
@@ -92,4 +89,13 @@ apk_sources = {
     "stocard": f"{APK_MIRROR_BASE_APK_URL}/stocard-gmbh/stocard-rewards-cards-wallet/",
     "willhaben": f"{APK_MIRROR_BASE_APK_URL}/willhaben/willhaben/",
     "proton-mail": f"{APK_MIRROR_BASE_APK_URL}/proton-technologies-ag/protonmail-encrypted-email/",
+    "prime-video": f"{APK_MIRROR_BASE_APK_URL}/amazon-mobile-llc/amazon-prime-video/",
+    "cricbuzz": f"{APK_MIRROR_BASE_APK_URL}/cricbuzz-com/cricbuzz-live-cricket-scores-news/",
+    "crunchyroll": f"{APK_MIRROR_BASE_APK_URL}/crunchyroll-llc-2/crunchyroll/",
+    "threads": f"{APK_MIRROR_BASE_APK_URL}/instagram/threads-an-instagram-app/",
+    "orf-on": f"{APK_MIRROR_BASE_APK_URL}/orf-osterreichischer-rundfunk/orf-tvthek-video-on-demand-android-tv/",
+    "pandora": f"{APK_MIRROR_BASE_APK_URL}/pandora/pandora-music-podcasts/",
+    "cieid": f"{APK_MIRROR_BASE_APK_URL}/istituto-poligrafico-e-zecca-dello-stato-s-p-a/cieid/",
+    "infinity-for-reddit-patreon": f"{APK_MIRROR_BASE_APK_URL}/docile-alligator/infinity-for-reddit-patreon-github-version/",  # noqa: E501
+    "infinity-for-reddit-plus": f"{APK_MIRROR_BASE_APK_URL}/docile-alligator/infinity-for-reddit-plus/",
 }
